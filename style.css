@@ -10,22 +10,24 @@ body{
 }
 header {
     align-items: center;
-    height: 52px;
     background-color: #1f2937;
     display: flex;
     justify-content: space-around;
+    
+
 }
 .logo{
     font-size: 24px;
     color: #f9faf8;
 }
 ul li, ul li a {
-    display: inline;
+    display: inline-block;
     text-decoration: none;
     list-style-type: none;
     color: #e5e7eb;
     font-size: 18px;
-    padding: 5px;
+    padding: 7px;
+    
 }
 
 
@@ -111,7 +113,8 @@ h2 {
     padding: 100px 200px;
 }
 small{
-    float: inline-end;
+    float: right;
+    font-weight: bolder;
 }
 
 /*last part*/
